@@ -1,3 +1,14 @@
+body{
+    background-color: #030825;
+}
+.new{
+    color: aquamarine;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 100px;
+}
 .keys{
     background-color: #030825;
     height: 650px;
