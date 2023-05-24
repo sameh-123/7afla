@@ -1,0 +1,32 @@
+.keys{
+    background-color: #030825;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.key{
+    background-color: bisque;
+    width: 60px;
+    border: solid #ddbe0b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.07s ease;
+}
+.playing{
+    transform: scale(1.2);
+    border-color: greenyellow;
+    box-shadow: 0 0 1rem greenyellow;
+}
+kbd{
+    font-size: 20px;
+    color: goldenrod;
+}
+.sound{
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(156, 15, 15);
+}
